@@ -88,15 +88,15 @@ function init() {
   );
 
   setSkyBox();
-  earth = loadPlanetTexture("../img/earth_hd.jpg", 4, 100, 100, 'standard');
-  sun = loadPlanetTexture("../img/sun_hd.jpg", 20, 100, 100, 'basic');
-  mercury = loadPlanetTexture("../img/mercury_hd.jpg", 2, 100, 100, 'standard');
-  venus = loadPlanetTexture("../img/venus_hd.jpg", 3, 100, 100, 'standard');
-  mars = loadPlanetTexture("../img/mars_hd.jpg", 3.5, 100, 100, 'standard');
-  jupiter = loadPlanetTexture("../img/jupiter_hd.jpg", 10, 100, 100, 'standard');
-  saturn = loadPlanetTexture("../img/saturn_hd.jpg", 8, 100, 100, 'standard');
-  uranus = loadPlanetTexture("../img/uranus_hd.jpg", 6, 100, 100, 'standard');
-  neptune = loadPlanetTexture("../img/neptune_hd.jpg", 5, 100, 100, 'standard');
+  earth = loadPlanetTexture("img/earth_hd.jpg", 4, 100, 100, 'standard');
+  sun = loadPlanetTexture("img/sun_hd.jpg", 20, 100, 100, 'basic');
+  mercury = loadPlanetTexture("img/mercury_hd.jpg", 2, 100, 100, 'standard');
+  venus = loadPlanetTexture("img/venus_hd.jpg", 3, 100, 100, 'standard');
+  mars = loadPlanetTexture("img/mars_hd.jpg", 3.5, 100, 100, 'standard');
+  jupiter = loadPlanetTexture("img/jupiter_hd.jpg", 10, 100, 100, 'standard');
+  saturn = loadPlanetTexture("img/saturn_hd.jpg", 8, 100, 100, 'standard');
+  uranus = loadPlanetTexture("img/uranus_hd.jpg", 6, 100, 100, 'standard');
+  neptune = loadPlanetTexture("img/neptune_hd.jpg", 5, 100, 100, 'standard');
 
    scene.add(earth);
   scene.add(sun);
